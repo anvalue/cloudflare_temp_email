@@ -5,7 +5,8 @@ compatibility_flags = [ "nodejs_compat" ]
 keep_vars = true
 
 [[email]]
-name = "email"
+# wrangler.toml
+name = 'cloudflare-mail'
 routing = "catch-all"
 # if you want use custom_domain, you need to add routes
 # routes = [
